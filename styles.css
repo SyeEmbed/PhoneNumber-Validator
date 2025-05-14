@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(149, 130, 130);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px;
+}
+.container{
+    width: 120px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: black;
+    border: 1px solid #E5D9F2;
+}
+.camera-outline{
+    width: 100%;
+    height: 20px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.camera{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 40px;
+    height: 10px;
+    border-radius: 50px
+}
+.camera-dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(0, 0%, 50%, 0.527);
+    margin-left: 3px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+}
+.dot{
+    width: 2px;
+    height: 2px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.405);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    height: 10px;
+}
+.box p{
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px;
+    background-color: white;
+}
+.box input{
+    text-align: center;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 6px;
+}
+#results-div{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    width: 100%;
+    height: 150px;
+}
+#check-btn{
+    background-color: hsla(120, 97%, 36%, 0.8);
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+#check-btn:hover{
+    background-color: hsla(120, 97%, 36%, 0.6);
+    box-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.6);
+}
+#check-btn:active{
+    background-color: hsla(120, 97%, 36%);
+}
+#clear-btn{
+    background-color: hsla(0, 93%, 58%, 0.8);
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+#clear-btn:hover{
+    background-color: hsla(0, 93%, 58%, 0.6);
+    box-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.6);
+}
+#clear-btn:active{
+    background-color: hsla(0, 93%, 58%);
+}
+.container .underline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    height: 20px;
+}
+.underline .line{
+    background-color: black;
+    width: 50px;
+    height: 2px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
