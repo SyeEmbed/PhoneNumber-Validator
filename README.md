@@ -8,4 +8,4 @@ I spend a little extra time on the UI than necessary so I'm going to post it on 
 
 https://syeembed.github.io/PhoneNumber-Validator/
 
-The UI is good it's just smaller than it should be, however I'm not looking to spend anymore time on it. So onto the next project!
+The UI is good but not perfect, however I'm not looking to spend anymore time on it. So onto the next project!
